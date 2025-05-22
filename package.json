@@ -1,0 +1,33 @@
+{
+  "name": "se-sample-challenge",
+  "version": "1.0.0",
+  "description": "Sistema de Indexação Leve - Solution Engineering Challenge",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "generate-data": "tsx scripts/generateData.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meistrari/se-sample-challenge.git"
+  },
+  "keywords": ["typescript", "indexing", "search"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meistrari/se-sample-challenge/issues"
+  },
+  "homepage": "https://github.com/meistrari/se-sample-challenge#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@vitest/ui": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  }
+}
